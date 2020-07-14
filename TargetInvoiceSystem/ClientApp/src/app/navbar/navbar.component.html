@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/home">Target</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/home" routerLinkActive="active">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <!-- *ngIf="authService.isLoggedIn()"   -->
+            <a class="nav-link" href="#" routerLinkActive="active">New Invoice</a>
+          </li>
+          <li class="nav-item dropdown">
+            <!--  *ngIf="authService.isLoggedIn() && authService.isAdmin()"   -->
+            <a class="nav-link dropdown-toggle" href="#" routerLinkActive="active" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown07">
+              <a class="dropdown-item" href="#" routerLinkActive="active">Products</a>
+              <a class="dropdown-item" href="#" routerLinkActive="active">Invoices</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li *ngIf="!authService.isLoggedIn()" class="nav-item">
+            <a class="nav-link" routerLink="/login">Login</a>
+          </li>
+          <li *ngIf="!authService.isLoggedIn()" class="nav-item">
+            <a class="nav-link" routerLink="/register">Register</a>
+          </li>
+          <li *ngIf="authService.isLoggedIn()" class="nav-item">
+            <a class="nav-link">Welcome {{authService.user.userName}}</a>
+          </li>
+          <li *ngIf="authService.isLoggedIn()" class="nav-item">
+            <a class="nav-link" (click)="authService.logout()">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

@@ -1,0 +1,38 @@
+<h1 mat-dialog-title>{{data.dialogTitle}}</h1>
+<div mat-dialog-content>
+  <div class="row">
+    <div class="col-6">
+      <mat-form-field appearance="fill">
+        <mat-label>Person Name</mat-label>
+        <input matInput [(ngModel)]="data.person.fullName">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Phone</mat-label>
+        <input matInput [(ngModel)]="data.person.phoneNumber1">
+      </mat-form-field>
+    </div>
+    <div class="col-6">
+      <mat-form-field appearance="fill">
+        <mat-label>Address</mat-label>
+        <input matInput [(ngModel)]="data.person.address">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Mobile</mat-label>
+        <input matInput [(ngModel)]="data.person.phoneNumber2">
+      </mat-form-field>      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <label>Customer or Supplier:</label>
+      <mat-radio-group [(ngModel)]= "data.person.isCustomer">
+        <mat-radio-button value="true">Customer</mat-radio-button>
+        <mat-radio-button value="false">Supplier</mat-radio-button>
+      </mat-radio-group>
+    </div>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data.person" cdkFocusInitial>Save</button>
+</div>

@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>{{data.dialogTitle}}</h1>
+<div mat-dialog-content>
+    <p>Main Unit</p>
+    <mat-form-field>
+        <input matInput [(ngModel)]="data.unitInputDto.mainUnitDto.name" />
+    </mat-form-field>
+    <p>Sub Unit</p>
+    <mat-form-field>
+        <input matInput [(ngModel)]="data.unitInputDto.subUnitDto.name" />
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Cancel</button>
+    <button mat-button [mat-dialog-close]="data.unitInputDto" cdkFocusInitial>Save</button>
+</div>

@@ -1,0 +1,12 @@
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\bin\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.deps.json
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\bin\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.dll
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\bin\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.pdb
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\bin\Debug\netstandard2.1\TargetInvoiceSystem.Core.dll
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\bin\Debug\netstandard2.1\TargetInvoiceSystem.Core.pdb
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\obj\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.csprojAssemblyReference.cache
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\obj\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.AssemblyInfoInputs.cache
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\obj\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.AssemblyInfo.cs
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\obj\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\obj\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.csproj.CopyComplete
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\obj\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.dll
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Infrastructure\obj\Debug\netstandard2.1\TargetInvoiceSystem.Infrastructure.pdb

@@ -1,0 +1,36 @@
+<div class="container">
+    <button class="btn btn-outline-primary" (click)="createUnit('Create New Unit')">Create Unit</button>
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef> ID </th>
+            <td mat-cell *matCellDef="let element">{{element.id}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="mainUnit">
+            <th mat-header-cell *matHeaderCellDef> MainUnit </th>
+            <td mat-cell *matCellDef="let element">{{element.mainUnit}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="subUnit">
+            <th mat-header-cell *matHeaderCellDef> SubUnit </th>
+            <td mat-cell *matCellDef="let element">{{element.subUnit}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="update">
+            <th mat-header-cell *matHeaderCellDef></th>
+            <td mat-cell *matCellDef="let element">
+                <button mat-icon-button (click)="onEdit(element.id, 'Edit Unit')">
+                    <mat-icon>edit</mat-icon>
+                </button>
+                <button mat-icon-button (click)="onDelete(element.id)">
+                    <mat-icon>delete</mat-icon>
+                </button>
+            </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayColumns"></tr>
+
+    </table>
+</div>

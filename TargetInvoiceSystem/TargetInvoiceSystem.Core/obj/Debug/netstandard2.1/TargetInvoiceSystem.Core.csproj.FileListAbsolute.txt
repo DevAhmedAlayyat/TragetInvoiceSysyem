@@ -1,0 +1,9 @@
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Core\bin\Debug\netstandard2.1\TargetInvoiceSystem.Core.deps.json
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Core\bin\Debug\netstandard2.1\TargetInvoiceSystem.Core.dll
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Core\bin\Debug\netstandard2.1\TargetInvoiceSystem.Core.pdb
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Core\obj\Debug\netstandard2.1\TargetInvoiceSystem.Core.AssemblyInfoInputs.cache
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Core\obj\Debug\netstandard2.1\TargetInvoiceSystem.Core.AssemblyInfo.cs
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Core\obj\Debug\netstandard2.1\TargetInvoiceSystem.Core.csproj.CoreCompileInputs.cache
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Core\obj\Debug\netstandard2.1\TargetInvoiceSystem.Core.dll
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Core\obj\Debug\netstandard2.1\TargetInvoiceSystem.Core.pdb
+E:\Projects\Asp.Net Core\TargetInvoiceSystem\TargetInvoiceSystem.Core\obj\Debug\netstandard2.1\TargetInvoiceSystem.Core.csprojAssemblyReference.cache

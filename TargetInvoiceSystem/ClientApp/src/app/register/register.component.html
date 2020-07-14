@@ -1,0 +1,23 @@
+<section class="container">
+    <section class="login-form">
+    <h3><b>cloudapp</b> sign in</h3>
+    <form #register="ngForm" role="login" (ngSubmit)="onSubmit()">
+        <section>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    <input [(ngModel)]="authService.registerUser.email" name="email" type="email"  placeholder="Email Address" required class="form-control input-lg" />
+                </div>
+                <div class="col-xs-12 form-group">
+                    <input [(ngModel)]="authService.registerUser.password" name="password" type="password" placeholder="Password" required class="form-control input-lg" />
+                </div>
+                <div class="col-xs-12 form-group">
+                    <input [(ngModel)]="authService.registerUser.confirmPassword" name="confirmPassword" type="password" placeholder="Confirm Password" required class="form-control input-lg" />
+                </div>
+            </div>
+            <button type="submit" name="register" class="btn btn-lg btn-block btn-success">Register</button>
+            <p>Have account, <a routerLink="/login">login</a></p>
+        </section>			
+    </form>
+    </section>
+</section>
+	
